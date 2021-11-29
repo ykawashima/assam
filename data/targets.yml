@@ -4241,4 +4241,39 @@ midplane_170:
             width:
             height:
             angular_radius: 0.3
-    
+
+Luhman-16A:
+    category: BD
+    priority: 3
+    subtargets:
+        star:
+            frame: icrs
+            centre: [162.32916667, -53.31944444]
+            shape: circular
+            width:
+            height:
+            angular_radius: 0.3
+
+Luhman-16B:
+    category: BD
+    priority: 3
+    subtargets:
+        star:
+            frame: icrs
+            centre: [162.32875, -53.31916667]
+            shape: circular
+            width:
+            height:
+            angular_radius: 0.3
+
+Gl 229B:
+    category: BD
+    priority: 3
+    subtargets:
+        star:
+            frame: icrs
+            centre: [92.645, -21.86666667]
+            shape: circular
+            width:
+            height:
+            angular_radius: 0.3
