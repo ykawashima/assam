@@ -302,6 +302,7 @@ class VisualisationModule():
                 verticalalignment="top",
                 horizontalalignment="right",
                 bbox=props)
+        plt.savefig("bitmap.pdf", bbox_inches='tight')
 
     def plot_bitmaps(self):
         """
@@ -366,6 +367,7 @@ class VisualisationModule():
 
         # Enable grid
         plt.grid()
+        plt.savefig("target_scatter.pdf", bbox_inches='tight')
 
     def plot_target_duration_scatter(self, legend=False):
         """
@@ -426,6 +428,7 @@ class VisualisationModule():
 
         # Enable grid
         plt.grid()
+        plt.savefig("target_duration_scatter.pdf", bbox_inches='tight')
 
     def plot_target_duration_boxplot(self, xlim=None, buffer=5):
         """
@@ -502,3 +505,4 @@ class VisualisationModule():
         
         # Enable grid
         plt.grid()
+        plt.savefig("target_duration_boxplot.pdf", bbox_inches='tight')

@@ -137,3 +137,6 @@ GMAT_output.dat
 
 # pylint files
 .pylint.d
+
+# Figs
+*.pdf
