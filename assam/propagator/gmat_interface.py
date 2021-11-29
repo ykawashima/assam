@@ -133,10 +133,12 @@ class GMATInterface():
         """
 
         # Define command to run GMAT
-        command = "GMAT"
+        # command = "GMAT"
+        command = "/home/kawashima/install/GMAT/R2020a/bin/GmatConsole"
         # Define flags when running GMAT
         # (-r: run script, -m: run minimised, -x: exit when finished)
-        flags = "-r -m -x"
+        # flags = "-r -m -x"
+        flags = "-r"
 
         full_command = f"""{command} {flags} "{MODIFIED_PATH}"  """
 
